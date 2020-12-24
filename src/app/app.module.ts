@@ -17,7 +17,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
-import { HeroeComponent } from './heroe/heroe.component';
+import { HeroeComponent } from './components/heroe/heroe.component';
 
 
 @NgModule({
