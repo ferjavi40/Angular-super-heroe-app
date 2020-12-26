@@ -7,7 +7,9 @@ import {APP_ROUTING} from './app.routes';
 //servicios
 
 import { HeroesService } from './servicios/heroes.service';
-;
+
+
+
 
 
 
@@ -22,6 +24,8 @@ import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 
 
@@ -34,7 +38,8 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
     HeroesComponent,
     HeroeComponent,
     BuscadorComponent,
-    
+    CarouselComponent,
+    FooterComponent,
     ],
   imports: [
     BrowserModule,
