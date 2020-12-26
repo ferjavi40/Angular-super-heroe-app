@@ -1,0 +1,5 @@
+@media (max-width: 610px) {
+    .fixed-bottom {
+        height: 80px;
+    }
+}
