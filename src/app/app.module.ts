@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // rutas
 
-import {APP_ROUTING} from './app.routes';
+import { APP_ROUTING } from './app.routes';
 
 //servicios
 
@@ -40,7 +40,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     BuscadorComponent,
     CarouselComponent,
     FooterComponent,
-    ],
+  ],
   imports: [
     BrowserModule,
     NgbModule,

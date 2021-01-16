@@ -13,22 +13,24 @@ import { Router } from '@angular/router';
 })
 export class HeroesComponent implements OnInit {
 
-  heroes: Heroe [] = [];
+  heroes: Heroe[] = [];
 
-  constructor( private _heroesService: HeroesService,
-               private _rutasParametros: Router) {
-    
+  constructor(
+    private _heroesService: HeroesService,
+    private _rutasParametros: Router
+  ) {
+
   }
 
   ngOnInit(): void {
-    
+
     this.heroes = this._heroesService.getHeroes();
 
     console.log(this.heroes);
   }
 
-  movRutas(idx: number){
-    this._rutasParametros.navigate( ['/heroe', idx] );
+  movRutas(idx: number) {
+    this._rutasParametros.navigate(['/heroe', idx]);
   }
 
 
